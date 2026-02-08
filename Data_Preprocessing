@@ -1,0 +1,4 @@
+#remove comumn ProbeName and seqname
+
+Patient_data <-Exp_data[, !(names(Exp_data) %in% c("ProbeName", "seqname"))]
+print(Patient_data)
