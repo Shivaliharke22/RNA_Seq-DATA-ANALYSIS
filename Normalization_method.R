@@ -1,4 +1,12 @@
 ############## NORMALIZATION METHODS ####################
+library(edgeR)
+library(tidyverse)
+library(rlang)
+library(biomaRt)
+library(janitor)
+library(GEOquery)
+library(limma)
+library(preprocessCore)
 ### 1. Quantile normalization Normalize a matrix of Agilent expression values (already summarized)
 # Install and load the preprocessCore package
 
